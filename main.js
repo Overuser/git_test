@@ -2,23 +2,6 @@
  * Global declarations
 *****************************/
 
-var bar = document.getElementsByClassName("bar");
-const [bar1, bar2, bar3, bar4, bar5, bar6] = bar;
-
-/****************************
- * Class changing function
-*****************************/
-
-window.onload = () => {
-    setTimeout(() => {
-        bar1.className = "one";
-        bar2.className = "two";
-        bar3.className = "three";
-        bar4.className = "four";
-        bar5.className = "five";
-        bar6.className = "six";
-    }, 300);
-}
 
 /****************************
  * original snippet
@@ -38,8 +21,9 @@ function getCSS(element) {
     return;
 }*/
 
-
-
+const addNum = (a, b) => {
+    return parseInt(a) + parseInt(b);
+};
 
 
 
